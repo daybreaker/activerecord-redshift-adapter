@@ -759,7 +759,7 @@ module ActiveRecord
       end
 
       def use_insert_returning?
-        @use_insert_returning
+        false
       end
 
       # SCHEMA STATEMENTS ========================================
